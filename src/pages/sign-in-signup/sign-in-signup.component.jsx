@@ -5,11 +5,11 @@ import Signup from '../../components/sign-up/sign-up.component';
 
 import './sign-in-signup.styles.scss';
 
-const signInSignUpPage = ()=>(
+const SignInSignUpPage = ()=>(
     <div className="sign-in-signup">
         <SignIn />
         <Signup />
     </div>
 )
 
-export default signInSignUpPage;
+export default SignInSignUpPage;
